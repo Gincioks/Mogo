@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 article,
 aside,
 details,
@@ -299,6 +300,202 @@ input {
 .intro {
   height: 100vh;
   background-image: url("../img/intro_background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-color: #464646;
+}
+
+.intro nav ul li {
+  color: red;
+  font-size: 60px;
+  display: inline;
+}
+
+.intro nav ul li a {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  padding: 40px 1px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro nav ul li a:hover {
+  color: #fce38a;
+  border-bottom: 2px solid #fce38a;
+}
+
+.intro nav ul li:first-child {
+  display: block;
+  width: 86px;
+  height: 23px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 362px;
+  padding-top: 28px;
+}
+
+.intro nav ul li:last-child {
+  float: right;
+  margin-right: 358px;
+}
+
+.intro header {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.intro header h4 {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Kaushan Script", cursive;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro header h6 {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+  padding: 1% 0;
+  marting-bottom: 71px;
+}
+
+.intro header hr {
+  display: block;
+  width: 60px;
+  height: 3%;
+  padding: 0.5px 2%;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.intro header button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 40px;
+  background: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 2px solid;
+}
+
+.intro header button:hover {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 40px;
+  background: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  border: none;
+  outline: none;
+}
+
+.intro div {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 11%;
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.intro div button {
+  display: inline-block;
+  width: 25%;
+  padding: 10 10;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.intro div button p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 4%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.intro div button p span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.intro div button hr {
+  display: inline-block;
+  width: 100%;
+  height: 3%;
+  background-color: #ffffff;
+  border: 1.5px solid #ffffff;
+  outline: none;
+  opacity: 0.5;
+}
+
+.intro div button:hover {
+  display: inline-block;
+  width: 25%;
+  padding: 10 10;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.intro div button:hover p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.intro div button:hover p span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.intro div button:hover hr {
+  display: inline-block;
+  width: 30%;
+  height: 3%;
+  background-color: #f38181;
+  border: 1.5px solid #f38181;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: width 2s, height 4s;
+  transition: width 2s, height 4s;
 }
 /*# sourceMappingURL=main.css.map */
