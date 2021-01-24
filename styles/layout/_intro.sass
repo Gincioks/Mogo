@@ -1,160 +1,852 @@
-.intro
-    height: 100vh
-    background-image: url("../img/intro_background.jpg")
-    background-position: center center
-    background-repeat: no-repeat
-    background-attachment: fixed
-    background-size: cover
-    background-color: #464646
-.intro nav
-    ul
-        li
-            color: red
-            font-size: 60px
-            display: inline
-            a
-                text-decoration: none
-                width: auto
-                height: auto
-                padding: 40px 1px
-                padding-bottom: 12px
+@media all and (max-width: 3840px)
+    .intro nav
+        ul
+            li
+                font-size: 60px
+            li:last-child
+                float: right
+                margin-right: 358px
+@media all and (max-width: 2560px)
+    .intro
+        height: 100vh
+        width: 100vw
+        background-image: url("../img/intro_background.jpg")
+        background-position: center center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        background-color: #464646
+        position: relative
+    .intro nav
+        ul
+            display: block
+            width: 95%
+            margin: 0 auto
+            font-size: 0
+            button
+                display: none
+            li
+                display: inline-block
+                width: 50%
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 3%
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 1vw
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: block
+                width: 10%
                 color: $white
                 font-family: $font_primary
-                font-size: 14px
-                font-weight: 400
-                text-align: center
-            a:hover
-                color: $btn_hover
-                border-bottom: 2px solid $btn_hover
-        li:first-child
-            display: block
-            width: 86px
-            height: 23px
-            color: $white
-            font-family: $font_primary
-            font-size: 30px
-            font-weight: 700
-            text-align: left
-            padding-left: 362px
-            padding-top: 28px
-        li:last-child
-            float: right
-            margin-right: 358px
-.intro header
-    display: block
-    width: 80%
-    margin: 0 auto
-    margin-top: 10%
-    h4
-        display: block
-        width: 60%
-        margin: 0 auto
-        font-family: $font_secondary
-        color: $white
-        font-size: 72px
-        font-weight: 400
-        text-align: center
-    h6
-        display: block
-        width: 60%
-        margin: 0 auto
-        font-family: $font_primary_bold
-        color: $white
-        font-size: 150px
-        font-weight: 700
-        text-align: center
-        padding: 1% 0
-        marting-bottom: 71px
-    hr
-        display: block
-        width: 60px
-        height: 3%
-        padding: 0.5px 2%
-        background-color: $white
-        margin-bottom: 50px
-    button
-        display: block
-        margin: 0 auto
-        padding: 15px 40px
-        background: none
-        font-family: $font_primary
-        font-size: 14px
-        font-weight: 700
-        color: $white
-        border: 2px solid
-    button:hover
-        display: block
-        margin: 0 auto
-        padding: 15px 40px
-        background: $white
-        font-family: $font_primary
-        font-size: 12px
-        font-weight: 700
-        color: $black
-        border: none
-        outline: none
-.intro div
-    display: block
-    width: 60%
-    margin: 0 auto
-    margin-top: 11%
-    font-size: 0
-    box-sizing: border-box
-    button
-        display: inline-block
-        width: 25%
-        padding: 10 10
-        background-color: transparent
-        color: $white
-        text-align: left
-        border: none
-        outline: none
-        p
-            font-family: $font_primary_bold
-            font-size: 18px
-            font-weight: 400
-            padding-top: 4%
-            color: $white
-            opacity: 0.7
-            span
-                font-family: $font_primary_bold
-                font-size: 24px
+                font-size: 1.5vw
                 font-weight: 700
-                opacity: 1
+                text-align: left
+                padding-left: 15%
+                padding-top: 1.5%
+            .icon
+                display: none
+            li:last-child
+                display: block
+                text-align: center
+                padding: 2% 0
+                margin-right: 1%
+                padding-top: 0.8%
+                img
+                    width: 2%
+                    height: 2%
+    .intro header
+        display: block
+        width: 80%
+        margin: 0 auto
+        margin-top: 10%
+        h4
+            display: block
+            width: 80%
+            margin: 0 auto
+            font-family: $font_secondary
+            color: $white
+            font-size: 4vw
+            font-weight: 400
+            text-align: center
+        h6
+            display: block
+            width: 60%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            color: $white
+            font-size: 8vw
+            font-weight: 700
+            text-align: center
+            padding: 6% 0
+            padding-top: 2%
         hr
-            display: inline-block
-            width: 100%
+            display: block
+            width: 10%
             height: 3%
+            padding: 1px 2%
             background-color: $white
+            margin-bottom: 4%
+        button
+            display: block
+            margin: 0 auto
+            padding: 1% 8%
+            background: none
+            font-family: $font_primary
+            font-size: 1vw
+            font-weight: 700
+            color: $white
+            border: 0.2vw solid
+            outline: none
+        button:hover
+            display: block
+            margin: 0 auto
+            padding: 1% 8%
+            background: $white
+            font-family: $font_primary
+            font-size: 1vw
+            font-weight: 700
+            color: $black
+            border: 0.2vw solid $white
+    .intro div
+        display: block
+        position: absolute
+        bottom: 0
+        width: 100%
+        padding: 0 10%
+        padding-bottom: 2%
+        font-size: 0
+        button
+            display: inline-block
+            width: 25%
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            p
+                font-family: $font_primary_bold
+                font-size: 1vw
+                font-weight: 400
+                color: $white
+                opacity: 0.7
+                padding-top: 5%
+                span
+                    font-family: $font_primary_bold
+                    font-size: 1.5vw
+                    font-weight: 700
+                    opacity: 1
+            hr
+                display: inline-block
+                width: 100%
+                height: 1%
+                background-color: $white
+                border: 1px solid $white
+                outline: none
+                opacity: 0.5
+        button:hover
+            display: inline-block
+            width: 25%
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            hr
+                display: inline-block
+                width: 50%
+                height: 3%
+                background-color: $slide_btn_hover
+                border: 1.5px solid $slide_btn_hover
+                outline: none
+                opacity: 1
+                transition: width 2s, height 4s
+@media all and (max-width: 1024px)
+    .intro nav
+        ul
+            display: block
+            width: 95%
+            margin: 0 auto
+            font-size: 0
+            button
+                display: none
+            li
+                display: inline-block
+                width: 50%
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 1% /* Navbar paddin i sonus */
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.7rem
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: block
+                width: 10%
+                color: $white
+                font-family: $font_primary
+                font-size: 1.3rem
+                font-weight: 700
+                text-align: left
+                padding-left: 10%
+                padding-top: 1.5%
+            .icon
+                display: none
+            li:last-child
+                display: block
+                text-align: center
+                padding: 2% 0
+                margin-right: 1%
+                padding-top: 0.8%
+                img
+                    width: 2%
+                    height: 2%
+    .intro header
+        display: block
+        width: 90%
+        margin: 0 auto
+        margin-top: 20vh
+        h4
+            display: block
+            width: 70%
+            margin: 0 auto
+            font-family: $font_secondary
+            font-size: 4vw
+            color: $white
+            font-weight: 400
+            text-align: center
+        h6
+            ddisplay: block
+            width: 50%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            font-size: 7vw
+            color: $white
+            font-weight: 700
+            text-align: center
+            padding: 1% 0
+            padding-bottom: 5%
+        hr
+            display: block
+            width: 5%
+            height: 1%
+            padding: 0.3px 1%
+            background-color: $white
+            margin-bottom: 8%
+            border: 0px
+            outline: none
+        button
+            display: block
+            margin: 0 auto
+            padding: 0.5% 1%
+            background: none
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            text-align: center
+            color: $white
             border: 1.5px solid $white
             outline: none
-            opacity: 0.5
-    button:hover
-        display: inline-block
-        width: 25%
-        padding: 10 10
-        background-color: transparent
-        color: $white
-        text-align: left
-        border: none
-        outline: none
-        p
-            font-family: $font_primary_bold
-            font-size: 18px
-            font-weight: 400
-            color: $white
-            opacity: 0.7
-            span
-                font-family: $font_primary_bold
-                font-size: 24px
-                font-weight: 700
-                opacity: 1
-        hr
-            display: inline-block
-            width: 30%
-            height: 3%
-            background-color: $slide_btn_hover
-            border: 1.5px solid $slide_btn_hover
+        button:hover
+            padding: 0.5% 1%
+            background: $white
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            color: $black
+            border: 1.5px solid $white
             outline: none
-            opacity: 1
-            transition: width 2s, height 4s
+@media all and (max-width: 768px)
+    .intro
+        height: 100vh
+        width: 100vw
+        background-image: url("../img/intro_background.jpg")
+        background-position: center center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        background-color: #464646
+        position: relative
+    .intro nav
+        ul
+            display: block
+            width: 95%
+            margin: 0 auto
+            font-size: 0
+            button
+                display: none
+            li
+                display: inline-block
+                width: 50%
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 0 /* Navbar paddin i sonus */
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.6rem
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: block
+                width: 10%
+                color: $white
+                font-family: $font_primary
+                font-size: 1rem
+                font-weight: 700
+                text-align: left
+                padding-left: 10%
+                padding-top: 2%
+            .icon
+                display: none
+            li:last-child
+                display: block
+                text-align: center
+                padding: 2% 0
+                margin-right: 1%
+                padding-top: 0.8%
+                img
+                    width: 3%
+                    height: 3%
+    .intro header
+        display: block
+        width: 80vw
+        margin: 0 auto
+        margin-top: 20vh
+        h4
+            display: block
+            width: 80%
+            margin: 0 auto
+            font-family: $font_secondary
+            color: $white
+            font-weight: 400
+            text-align: center
+        h6
+            ddisplay: block
+            width: 50%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            color: $white
+            font-weight: 700
+            text-align: center
+            padding: 3% 0
+            padding-top: 3%
+        hr
+            display: block
+            width: 5%
+            height: 1%
+            padding: 0.3px 1%
+            background-color: $white
+            margin-bottom: 5vh
+            border: 0px
+            outline: none
+        button
+            display: block
+            margin: 0 auto
+            padding: 0.5% 1%
+            background: none
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            text-align: center
+            color: $white
+            border: 1.5px solid $white
+            outline: none
+        button:hover
+            padding: 0.5% 1%
+            background: $white
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            color: $black
+            border: 1.5px solid $white
+            outline: none
+    .intro div
+        display: block
+        position: absolute
+        bottom: 0
+        width: 100%
+        padding: 0 10%
+        padding-bottom: 2%
+        font-size: 0
+        button
+            display: inline-block
+            width: 25%
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            p
+                font-family: $font_primary_bold
+                font-size: 10px
+                font-weight: 400
+                color: $white
+                opacity: 0.7
+                span
+                    font-family: $font_primary_bold
+                    font-size: 16px
+                    font-weight: 700
+                    opacity: 1
+            hr
+                display: inline-block
+                width: 100%
+                height: 1%
+                margin-bottom: 0
+                background-color: $white
+                border: 1px solid $white
+                outline: none
+                opacity: 0.5
+        button:hover
+            display: inline-block
+            width: 25%
+            padding: 10 10
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            hr
+                display: inline-block
+                width: 35%
+                height: 3%
+                background-color: $slide_btn_hover
+                border: 1.5px solid $slide_btn_hover
+                outline: none
+                opacity: 1
+                transition: width 2s, height 4s
+@media all and (max-width: 425px)
+    .intro
+        height: 100vh
+        width: 100vw
+        background-image: url("../img/intro_background.jpg")
+        background-position: center center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        background-color: #464646
+        position: relative
+    .intro nav
+        ul
+            display: block
+            width: 95%
+            margin: 0 auto
+            font-size: 0
+            button
+                display: none
+            li
+                display: block
+                width: 80%
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 0 /* Navbar paddin i sonus */
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.6rem
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: block
+                width: 10%
+                color: $white
+                font-family: $font_primary
+                font-size: 1.4rem
+                font-weight: 700
+                text-align: left
+                padding-left: 10%
+                padding-top: 4%
+            .icon
+                display: none
+            li:last-child
+                display: block
+                margin: 0 auto
+                text-align: center
+                padding: 2% 0
+                margin-right: 10%
+                padding-top: 13%
+                img
+                    width: 4%
+                    height: 4%
+    .intro header
+        display: block
+        position: sticky
+        width: 90%
+        margin: 0 auto
+        margin-top: 20%
+        h4
+            display: block
+            width: 80%
+            margin: 0 auto
+            font-family: $font_secondary
+            color: $white
+            font-size: 1.8rem
+            font-weight: 400
+            text-align: center
+        h6
+            ddisplay: block
+            width: 80%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            color: $white
+            font-size: 3.5rem
+            font-weight: 700
+            text-align: center
+            padding: 6% 0
+            padding-top: 6%
+        hr
+            display: block
+            width: 5%
+            height: 1%
+            padding: 0.3px 1%
+            background-color: $white
+            margin-bottom: 8%
+            border: 0px
+            outline: none
+        button
+            display: block
+            margin: 0 auto
+            padding: 0.5% 1%
+            background: none
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            text-align: center
+            color: $white
+            border: 1.5px solid $white
+            outline: none
+        button:hover
+            padding: 0.5% 1%
+            background: $white
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            color: $black
+            border: 1.5px solid $white
+            outline: none
+    .intro div
+        display: block
+        position: absolute
+        bottom: 0
+        width: 100%
+        padding: 0 10%
+        padding-bottom: 2%
+        font-size: 0
+        button
+            display: inline-block
+            width: 25%
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            p
+                font-family: $font_primary_bold
+                font-size: 10px
+                font-weight: 400
+                color: $white
+                opacity: 0.7
+                span
+                    font-family: $font_primary_bold
+                    font-size: 16px
+                    font-weight: 700
+                    opacity: 1
+            hr
+                display: inline-block
+                width: 100%
+                height: 1%
+                margin-bottom: 0
+                background-color: $white
+                border: 1px solid $white
+                outline: none
+                opacity: 0.5
+        button:hover
+            display: inline-block
+            width: 25%
+            padding: 10 10
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            hr
+                display: inline-block
+                width: 35%
+                height: 3%
+                background-color: $slide_btn_hover
+                border: 1.5px solid $slide_btn_hover
+                outline: none
+                opacity: 1
+                transition: width 2s, height 4s
+@media all and (max-width: 375px)
+    .intro
+        height: 100vh
+        width: 100vw
+        background-image: url("../img/intro_background.jpg")
+        background-position: center center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        background-color: #464646
+        position: relative
+    .intro nav
+        ul
+            display: block
+            position: relative
+            width: 90%
+            margin: 0 auto
+            padding-top: 8%
+            font-size: 0
+            button
+                display: inline-block
+                position: relative
+                width: 20%
+                float: left
+                text-align: center
+                padding-top: 5%
+            li
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 0 /* Navbar paddin i sonus */
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.6rem
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: inline-block
+                width: 60%
+                margin: 0 auto
+                padding: 0% 0%
+                color: $white
+                font-family: $font_primary
+                font-size: 2.5rem
+                font-weight: 700
+                text-align: center
+            .icon
+                display: inline-block
+                position: relative
+                float: right
+                width: 20%
+                text-align: center
+                padding-top: 4%
+                img
+                    width: 40%
+                    height: 40%
+            li:last-child
+                display: none
+                margin: 0 auto
+                text-align: center
+                padding: 2% 0
+                margin-right: 10%
+                padding-top: 13%
+                img
+                    width: 4%
+                    height: 4%
+    .intro header
+        display: block
+        position: sticky
+        width: 90%
+        margin: 0 auto
+        margin-top: 20vh
+        h4
+            display: block
+            width: 70%
+            margin: 0 auto
+            font-family: $font_secondary
+            color: $white
+            font-weight: 400
+            text-align: center
+        h6
+            ddisplay: block
+            width: 90%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            color: $white
+            font-weight: 700
+            text-align: center
+            padding: 6% 0
+            padding-top: 6%
+        hr
+            display: block
+            width: 5%
+            height: 1%
+            padding: 0.3px 1%
+            background-color: $white
+            margin-bottom: 8%
+            border: 0px
+            outline: none
+        button
+            display: block
+            margin: 0 auto
+            padding: 0.5% 1%
+            background: none
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            text-align: center
+            color: $white
+            border: 1.5px solid $white
+            outline: none
+        button:hover
+            padding: 0.5% 1%
+            background: $white
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            color: $black
+            border: 1.5px solid $white
+            outline: none
+@media all and (max-width: 320px)
+    .intro nav
+        ul
+            display: block
+            position: relative
+            width: 90%
+            margin: 0 auto
+            padding-top: 8%
+            font-size: 0
+            button
+                display: inline-block
+                position: relative
+                width: 20%
+                float: left
+                text-align: center
+                padding-top: 5%
+            li
+                a
+                    text-decoration: none
+                    width: auto
+                    height: auto
+                    padding: 0 0 /* Navbar paddin i sonus */
+                    padding-bottom: 12px
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.6rem
+                    font-weight: 400
+                    text-align: center
+                    vertical-align: top
+                a:hover
+                    color: $btn_hover
+                    border-bottom: 2px solid $btn_hover
+            li:first-child
+                display: inline-block
+                width: 60%
+                margin: 0 auto
+                padding: 0% 0%
+                color: $white
+                font-family: $font_primary
+                font-size: 2.5rem
+                font-weight: 700
+                text-align: center
+            .icon
+                display: inline-block
+                position: relative
+                float: right
+                width: 20%
+                text-align: center
+                padding-top: 4%
+                img
+                    width: 40%
+                    height: 40%
+            li:last-child
+                display: none
+                margin: 0 auto
+                text-align: center
+                padding: 2% 0
+                margin-right: 10%
+                padding-top: 13%
+                img
+                    width: 4%
+                    height: 4%
+    .intro header
+        display: block
+        position: sticky
+        width: 90%
+        margin: 0 auto
+        margin-top: 20vh
+        h4
+            display: block
+            width: 70%
+            margin: 0 auto
+            font-family: $font_secondary
+            font-size: 4vh
+            color: $white
+            font-weight: 400
+            text-align: center
+        h6
+            ddisplay: block
+            width: 90%
+            margin: 0 auto
+            font-family: $font_primary_bold
+            font-size: 7vh
+            color: $white
+            font-weight: 700
+            text-align: center
+            padding: 6% 0
+            padding-top: 6%
+        hr
+            display: block
+            width: 5%
+            height: 1%
+            padding: 0.3px 1%
+            background-color: $white
+            margin-bottom: 8%
+            border: 0px
+            outline: none
+        button
+            display: block
+            margin: 0 auto
+            padding: 0.5% 1%
+            background: none
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            text-align: center
+            color: $white
+            border: 1.5px solid $white
+            outline: none
+        button:hover
+            padding: 0.5% 1%
+            background: $white
+            font-family: $font_primary
+            font-size: 7px
+            font-weight: 700
+            color: $black
+            border: 1.5px solid $white
+            outline: none

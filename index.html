@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/tools/hamburgers/hamburgers.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -13,7 +14,13 @@
         <nav>
             <ul>
                 <li>MoGo</li>
-                <li>
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <a class="icon" href="#search"><img src="./img/icon_search.png" alt="icon_search" /></a>
+                <li class="navigation">
                     <a href="#about">ABOUT</a>
                     <a href="#service">SERVICE</a>
                     <a href="#work">WORK</a>
@@ -49,6 +56,20 @@
             </button>
         </div>
     </section>
+    <script>
+        var forEach = function (t, o, r) { if ("[object Object]" === Object.prototype.toString.call(t)) for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e; e++)o.call(r, t[e], e, t) };
+
+        var hamburgers = document.querySelectorAll(".hamburger");
+        if (hamburgers.length > 0) {
+            forEach(hamburgers, function (hamburger) {
+                hamburger.addEventListener("click", function () {
+                    this.classList.toggle("is-active");
+                    document.getElementById("Menu").style.display = "block"
+                }, false);
+            });
+        }
+    </script>
+
 </body>
 
 </html>
