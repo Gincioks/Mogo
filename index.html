@@ -20,7 +20,7 @@
                     </span>
                 </button>
                 <a class="icon" href="#search"><img src="./img/icon_search.png" alt="icon_search" /></a>
-                <li class="navigation">
+                <li id="navigation">
                     <a href="#about">ABOUT</a>
                     <a href="#service">SERVICE</a>
                     <a href="#work">WORK</a>
@@ -64,7 +64,7 @@
             forEach(hamburgers, function (hamburger) {
                 hamburger.addEventListener("click", function () {
                     this.classList.toggle("is-active");
-                    document.getElementById("Menu").style.display = "block"
+                    document.getElementById("navigation").style.display = "block"
                 }, false);
             });
         }
