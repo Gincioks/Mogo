@@ -1759,6 +1759,8 @@ input {
     padding: 1px 2%;
     background-color: #ffffff;
     margin-bottom: 4%;
+    border: none;
+    outline: none;
   }
   .intro header button {
     display: block;
@@ -1927,7 +1929,7 @@ input {
     font-weight: 700;
     text-align: center;
     padding: 1% 0;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
   }
   .intro header hr {
     display: block;
@@ -1935,14 +1937,14 @@ input {
     height: 1%;
     padding: 0.3px 1%;
     background-color: #ffffff;
-    margin-bottom: 8%;
-    border: 0px;
+    margin-bottom: 5%;
+    border: none;
     outline: none;
   }
   .intro header button {
     display: block;
     margin: 0 auto;
-    padding: 0.5% 1%;
+    padding: 0.5% 3%;
     background: none;
     font-family: Montserrat;
     font-size: 7px;
@@ -2489,6 +2491,67 @@ input {
     color: #000000;
     border: 1.5px solid #ffffff;
     outline: none;
+  }
+  .intro div {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2%;
+    font-size: 0;
+  }
+  .intro div button {
+    display: inline-block;
+    width: 25%;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    border: none;
+    outline: none;
+  }
+  .intro div button p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  .intro div button p span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+  }
+  .intro div button hr {
+    display: inline-block;
+    width: 100%;
+    height: 1%;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    outline: none;
+    opacity: 0.5;
+  }
+  .intro div button:hover {
+    display: inline-block;
+    width: 25%;
+    padding: 10 10;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    border: none;
+    outline: none;
+  }
+  .intro div button:hover hr {
+    display: inline-block;
+    width: 35%;
+    height: 3%;
+    background-color: #f38181;
+    border: 1.5px solid #f38181;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
   }
 }
 
