@@ -96,6 +96,8 @@
             padding: 1px 2%
             background-color: $white
             margin-bottom: 4%
+            border: none
+            outline: none
         button
             display: block
             margin: 0 auto
@@ -241,20 +243,20 @@
             font-weight: 700
             text-align: center
             padding: 1% 0
-            padding-bottom: 5%
+            padding-bottom: 4%
         hr
             display: block
             width: 5%
             height: 1%
             padding: 0.3px 1%
             background-color: $white
-            margin-bottom: 8%
-            border: 0px
+            margin-bottom: 5%
+            border: none
             outline: none
         button
             display: block
             margin: 0 auto
-            padding: 0.5% 1%
+            padding: 0.5% 3%
             background: none
             font-family: $font_primary
             font-size: 7px
@@ -732,6 +734,59 @@
             color: $black
             border: 1.5px solid $white
             outline: none
+    .intro div
+        display: block
+        position: absolute
+        bottom: 0
+        width: 100%
+        padding-bottom: 2%
+        font-size: 0
+        button
+            display: inline-block
+            width: 25%
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            p
+                font-family: $font_primary_bold
+                font-size: 8px
+                font-weight: 400
+                color: $white
+                opacity: 0.7
+                span
+                    font-family: $font_primary_bold
+                    font-size: 14px
+                    font-weight: 700
+                    opacity: 1
+            hr
+                display: inline-block
+                width: 100%
+                height: 1%
+                margin-bottom: 0
+                background-color: $white
+                border: 1px solid $white
+                outline: none
+                opacity: 0.5
+        button:hover
+            display: inline-block
+            width: 25%
+            padding: 10 10
+            background-color: transparent
+            color: $white
+            text-align: left
+            border: none
+            outline: none
+            hr
+                display: inline-block
+                width: 35%
+                height: 3%
+                background-color: $slide_btn_hover
+                border: 1.5px solid $slide_btn_hover
+                outline: none
+                opacity: 1
+                transition: width 2s, height 4s
 @media all and (max-width: 320px)
     .intro nav
         ul
