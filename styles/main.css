@@ -1084,14 +1084,14 @@ input {
    * Minus
    */
 .hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
-  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
-  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
   opacity: 0;
-  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
-  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before {
@@ -1191,8 +1191,8 @@ input {
 }
 
 .hamburger--spin .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin .hamburger-inner::after {
@@ -1214,8 +1214,8 @@ input {
 .hamburger--spin.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin.is-active .hamburger-inner::after {
@@ -1239,8 +1239,8 @@ input {
 }
 
 .hamburger--spin-r .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin-r .hamburger-inner::after {
@@ -1262,8 +1262,8 @@ input {
 .hamburger--spin-r.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin-r.is-active .hamburger-inner::after {
@@ -1499,8 +1499,8 @@ input {
 }
 
 .hamburger--squeeze .hamburger-inner::before {
-  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
-  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
 }
 
 .hamburger--squeeze .hamburger-inner::after {
@@ -1522,8 +1522,8 @@ input {
 .hamburger--squeeze.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
-  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
 }
 
 .hamburger--squeeze.is-active .hamburger-inner::after {
@@ -1690,6 +1690,48 @@ input {
   line-height: 24px;
 }
 
+@media all and (min-width: 320px) and (max-width: 480px) {
+  h3 {
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    font-family: "Kaushan Script", cursive;
+    font-size: 10.66vw;
+    font-weight: 400;
+    padding-bottom: 23px;
+  }
+  h5 {
+    width: 100%;
+    text-align: center;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-weight: 700;
+    padding-bottom: 23px;
+  }
+  hr {
+    display: block;
+    width: 6%;
+    height: 3%;
+    margin: 5.71vh auto;
+    background-color: #f38181;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 0.1vh solid #f38181;
+  }
+  p {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #999999;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
 /*---Importing---sections------*/
 @media all and (max-width: 3840px) {
   .intro nav ul li {
@@ -1704,7 +1746,7 @@ input {
 @media all and (max-width: 2560px) {
   .intro {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url("../img/intro_background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -1772,11 +1814,11 @@ input {
     display: block;
     width: 80%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 6%;
   }
   .intro header h4 {
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     font-family: "Kaushan Script", cursive;
     color: #ffffff;
@@ -2733,7 +2775,82 @@ input {
   }
 }
 
-@media all and (max-width: 1920px) {
+@media all and (min-width: 480px) and (max-width: 2560px) {
+  .about {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 11.5vh;
+    padding-bottom: 13.9vh;
+  }
+  .about .section_photo {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 12.81vh;
+  }
+  .about .section_photo div {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin-left: 2.08vw;
+    background-color: #95e1d3;
+  }
+  .about .section_photo div img {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+  .about .section_photo div span {
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: -10px;
+  }
+  .about .section_photo div span .img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  .about .section_photo div span img:nth-child(2) {
+    display: block;
+    height: auto;
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    z-index: 2;
+  }
+  .about .section_photo div span p {
+    top: 55%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .about .section_photo div:hover .img_top {
+    top: -10px;
+    left: -10px;
+  }
+  .about .section_photo div:hover span {
+    visibility: visible;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
   .about {
     display: block;
     width: 80%;
@@ -2749,27 +2866,28 @@ input {
     padding-top: 12.81vh;
   }
   .about .aaa div {
-    display: inline-block;
+    display: block;
     position: relative;
-    width: 30%;
-    margin-left: 2.08vw;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10%;
     background-color: #95e1d3;
   }
   .about .aaa div img {
     display: block;
+    position: relative;
     width: 100%;
-    position: in;
   }
   .about .aaa div span {
-    display: none;
+    display: block;
+    visibility: hidden;
     width: 100%;
     height: 100%;
-    color: black;
     font-size: 10px;
     position: absolute;
     text-align: center;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: -10px;
   }
   .about .aaa div span .img-top {
     position: absolute;
@@ -2799,11 +2917,52 @@ input {
     color: #ffffff;
     font-weight: 700;
   }
-  .about .aaa div:hover span, .about .aaa .img_top {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    bottom: 30%;
+  .about .aaa div:hover .img_top {
+    top: -10px;
+    left: -10px;
   }
+  .about .aaa div:hover span {
+    visibility: visible;
+  }
+}
+
+.counter {
+  width: 100%;
+  background-color: #95e1d3;
+}
+
+.counter .rows {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.counter .rows div {
+  display: inline-block;
+  width: 20%;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 14.45vh 0%;
+  text-align: center;
+}
+
+.counter .rows div p {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 0.72vw;
+  font-weight: 400;
+}
+
+.counter .rows div p span {
+  display: block;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 3.75vw;
+  font-weight: 700;
+  margin-bottom: 3.20vh;
 }
 /*# sourceMappingURL=main.css.map */
