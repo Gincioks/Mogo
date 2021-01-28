@@ -1652,7 +1652,7 @@ input {
   text-align: center;
   color: #333333;
   font-family: "Kaushan Script", cursive;
-  font-size: 1.66vw;
+  font-size: 1.86vw;
   font-weight: 400;
   padding-bottom: 23px;
 }
@@ -1691,25 +1691,25 @@ input {
 }
 
 @media all and (min-width: 320px) and (max-width: 480px) {
-  h3 {
+  .section_header h3 {
     width: 100%;
     text-align: center;
     color: #333333;
     font-family: "Kaushan Script", cursive;
-    font-size: 10.66vw;
+    font-size: 3.66vw;
     font-weight: 400;
     padding-bottom: 23px;
   }
-  h5 {
+  .section_header h5 {
     width: 100%;
     text-align: center;
     color: #333333;
     font-family: Montserrat;
-    font-size: 2.08vw;
+    font-size: 6.08vw;
     font-weight: 700;
     padding-bottom: 23px;
   }
-  hr {
+  .section_header hr {
     display: block;
     width: 6%;
     height: 3%;
@@ -1720,7 +1720,7 @@ input {
             align-items: center;
     border: 0.1vh solid #f38181;
   }
-  p {
+  .section_header p {
     display: block;
     width: 70%;
     margin: 0 auto;
@@ -1814,7 +1814,7 @@ input {
     display: block;
     width: 80%;
     margin: 0 auto;
-    margin-top: 6%;
+    margin-top: 19.10vh;
   }
   .intro header h4 {
     display: block;
@@ -1832,10 +1832,10 @@ input {
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: 700;
     text-align: center;
-    padding: 6% 0;
+    padding: 3% 0;
     padding-top: 2%;
   }
   .intro header hr {
@@ -1844,7 +1844,7 @@ input {
     height: 3%;
     padding: 1px 2%;
     background-color: #ffffff;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     border: none;
     outline: none;
   }
@@ -2836,7 +2836,7 @@ input {
     margin: 0 auto;
     position: relative;
     z-index: 2;
-    font-size: 18px;
+    font-size: 0.93vw;
     font-family: Montserrat;
     color: #ffffff;
     font-weight: 700;
@@ -2858,14 +2858,14 @@ input {
     padding-top: 11.5vh;
     padding-bottom: 13.9vh;
   }
-  .about .aaa {
+  .about .section_photo {
     display: block;
     width: 90%;
     margin: 0 auto;
     font-size: 0;
     padding-top: 12.81vh;
   }
-  .about .aaa div {
+  .about .section_photo div {
     display: block;
     position: relative;
     width: 95%;
@@ -2873,12 +2873,12 @@ input {
     margin-bottom: 10%;
     background-color: #95e1d3;
   }
-  .about .aaa div img {
+  .about .section_photo div img {
     display: block;
     position: relative;
     width: 100%;
   }
-  .about .aaa div span {
+  .about .section_photo div span {
     display: block;
     visibility: hidden;
     width: 100%;
@@ -2889,14 +2889,14 @@ input {
     top: -10px;
     left: -10px;
   }
-  .about .aaa div span .img-top {
+  .about .section_photo div span .img-top {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     opacity: 0.8;
   }
-  .about .aaa div span img:nth-child(2) {
+  .about .section_photo div span img:nth-child(2) {
     display: block;
     height: auto;
     width: 10%;
@@ -2907,33 +2907,35 @@ input {
             transform: translate(-50%, 0);
     z-index: 2;
   }
-  .about .aaa div span p {
+  .about .section_photo div span p {
     top: 55%;
     margin: 0 auto;
     position: relative;
     z-index: 2;
-    font-size: 18px;
+    font-size: 0.93vw;
     font-family: Montserrat;
     color: #ffffff;
     font-weight: 700;
   }
-  .about .aaa div:hover .img_top {
+  .about .section_photo div:hover .img_top {
     top: -10px;
     left: -10px;
   }
-  .about .aaa div:hover span {
+  .about .section_photo div:hover span {
     visibility: visible;
   }
 }
 
 .counter {
   width: 100%;
+  height: 20vh;
   background-color: #95e1d3;
 }
 
 .counter .rows {
   display: block;
   width: 70%;
+  height: 20vh;
   margin: 0 auto;
   font-size: 0;
 }
@@ -2941,9 +2943,9 @@ input {
 .counter .rows div {
   display: inline-block;
   width: 20%;
+  height: 20vh;
   font-size: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 14.45vh 0%;
   text-align: center;
 }
 
@@ -2955,6 +2957,8 @@ input {
   font-family: Montserrat;
   font-size: 0.72vw;
   font-weight: 400;
+  vertical-align: top;
+  margin-top: 5vh;
 }
 
 .counter .rows div p span {
@@ -2963,6 +2967,175 @@ input {
   font-family: Montserrat;
   font-size: 3.75vw;
   font-weight: 700;
-  margin-bottom: 3.20vh;
+  margin-bottom: 2vh;
+}
+
+@media all and (min-width: 375px) and (max-width: 768px) {
+  .counter {
+    width: 100%;
+    height: 17vh;
+    background-color: #95e1d3;
+  }
+  .counter .rows {
+    display: block;
+    width: 70%;
+    height: 20vh;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  .counter .rows div {
+    display: inline-block;
+    width: 20%;
+    height: 20vh;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  .counter .rows div p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 0.72vw;
+    font-weight: 400;
+    vertical-align: top;
+    margin-top: 5vh;
+  }
+  .counter .rows div p span {
+    display: block;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 3.75vw;
+    font-weight: 700;
+    margin-bottom: 2vh;
+  }
+}
+
+@media all and (min-width: 680px) and (max-width: 2560px) {
+  .service {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 11.63vh;
+    padding-bottom: 13.02vh;
+  }
+  .service .container {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .service .container hr {
+    margin-bottom: 5.44vh;
+    border: 1px solid #e5e5e5;
+    outline: none;
+  }
+  .service .container .column {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-bottom: 5.44vh;
+  }
+  .service .container .column .row {
+    display: inline-block;
+    width: 33%;
+  }
+  .service .container .column .row img {
+    display: inline-block;
+    width: 8%;
+    margin-left: 0.6vw;
+    vertical-align: top;
+  }
+  .service .container .column .row div {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+  }
+  .service .container .column .row div h4 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .service .container .column .row div p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 680px) {
+  .service {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 11.63vh;
+    padding-bottom: 13.02vh;
+  }
+  .service .container {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .service .container hr {
+    margin-bottom: 5.44vh;
+    border: 1px solid #e5e5e5;
+    outline: none;
+  }
+  .service .container .column {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-bottom: 4.44vh;
+  }
+  .service .container .column .row {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 5.44vh;
+  }
+  .service .container .column .row img {
+    display: inline-block;
+    width: 8%;
+    vertical-align: top;
+  }
+  .service .container .column .row div {
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+  }
+  .service .container .column .row div h4 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .service .container .column .row div p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
