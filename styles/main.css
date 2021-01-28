@@ -3138,4 +3138,47 @@ input {
     line-height: 24px;
   }
 }
+
+.uni_design {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../img/uni_design_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  position: relative;
+}
+
+.uni_design .section_header {
+  padding-top: 10.38vh;
+}
+
+.uni_design .ipad_photo {
+  display: block;
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  width: 18vw;
+  margin: 0 auto;
+}
+
+.uni_design .ipad_photo img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.uni_design .iphone_photo {
+  display: block;
+  position: absolute;
+  bottom: -4vw;
+  left: 54%;
+  width: 10.8vw;
+}
+
+.uni_design .iphone_photo img {
+  display: block;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
