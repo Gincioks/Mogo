@@ -195,11 +195,81 @@
                 </div>
             </div>
     </section>
+    <section class="uni_design">
+        <div class="section_header">
+            <h3>For all devices</h3>
+            <h5>Unique design</h5>
+            <hr class="hr_red">
+        </div>
+        <div class="ipad_photo">
+            <img src="./img/ipad.png" alt="ipad">
+        </div>
+        <div class="iphone_photo">
+            <img src="./img/iphone.png" alt="iphone">
+        </div>
+    </section>
+    <section class="service_full">
+        <div class="section_header">
+            <h3>Service</h3>
+            <h5>WHAT WE DO</h5>
+            <hr class="hr_red">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. </p>
+        </div>
+        <div class="container">
+            <div class="column_2"><img src="./img/service_human.jpg" alt="service_human"></div>
+            <div class="column_2">
+                <div class="accordion">
+                    <span>
+                        <img class="icon" src="./img/PICTURE.png" alt="PICTURE">
+                    </span>
+                    <p>
+                        PHOTOGRAPHY
+                    </p>
+
+                </div>
+                <div class="panel ">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="accordion">
+                    <span>
+                        <img class="icon" src="./img/PICTURE.png" alt="PICTURE">
+                    </span>
+                    <p>
+                        CREATIVITY
+                    </p>
+
+                </div>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="accordion">
+                    <span>
+                        <img class="icon" src="./img/PICTURE.png" alt="PICTURE">
+                    </span>
+                    <p>
+                        WEB DESIGN
+                    </p>
+
+                </div>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+    </section>
 
     <script>
         var forEach = function (t, o, r) {
             if (" [object Object]" === Object.prototype.toString.call(t)) for (var c in t)
-                Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e;
+                Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0,
+                    l = t.length; l > e;
                 e++)o.call(r, t[e], e, t)
         };
 
@@ -210,6 +280,22 @@
                     this.classList.toggle("is-active");
                     document.getElementById("navigation").style.display = "block"
                 }, false);
+            });
+        }
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
             });
         }
     </script>
