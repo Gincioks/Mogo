@@ -5,6 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url(//db.onlinewebfonts.com/c/05ccc97a5e23ca0875207b3bb6d1898b?family=Roboto);
 article,
 aside,
 details,
@@ -3190,34 +3192,34 @@ input {
   padding-bottom: 13.9vh;
 }
 
-.container {
+.service_full .container_2 {
   display: block;
   margin: 0 auto;
   font-size: 0;
   padding: 11.36vh;
 }
 
-.container .column_2 {
+.service_full .container_2 .column_2 {
   display: inline-block;
-  width: 45%;
+  width: 48%;
   vertical-align: top;
   margin-right: 2%;
 }
 
-.container .column_2 img {
+.service_full .container_2 .column_2 img {
   width: 100%;
 }
 
-.container .column_2 .accordion {
+.service_full .container_2 .column_2 .accordion {
   display: block;
   width: 100%;
   background-color: #ffffff;
   color: #333333;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 0.72vw;
   font-weight: 400;
-  padding: 2.84vh 0.83vw;
-  border: 1px solid #cccccc;
+  padding: 1.84vh 0.83vw;
+  border: 0.052vw solid #cccccc;
   outline: none;
   cursor: pointer;
   vertical-align: top;
@@ -3225,31 +3227,140 @@ input {
   transition: 0.4s;
 }
 
-.container .column_2 .accordion p {
+.service_full .container_2 .column_2 .accordion p {
   display: inline-block;
   width: 70%;
   vertical-align: top;
   text-align: left;
-  padding-top: 10px;
+  padding-top: 0.72vh;
 }
 
-.container .column_2 .accordion span {
+.service_full .container_2 .column_2 .accordion span {
   display: inline-block;
   width: 5%;
 }
 
-.container .column_2 .accordion span img {
+.service_full .container_2 .column_2 .accordion span img {
   width: 80%;
 }
 
-.container .column_2 .panel {
-  padding: 0 18px;
-  margin: 35px 10px;
+.service_full .container_2 .column_2 .panel {
+  padding: 0 0.93vw;
   background-color: white;
+  margin-bottom: 1.06vh;
   max-height: 0;
-  font-size: 20px;
+  height: 25.30vh;
   overflow: hidden;
+  overflow-y: scroll;
+  border: 0.052vw solid #e5e5e5;
   -webkit-transition: max-height 0.5s ease-out;
   transition: max-height 0.5s ease-out;
+}
+
+.service_full .container_2 .column_2 .panel p {
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 0.78vw;
+  letter-spacing: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 2.1vh;
+  padding-left: 1.13vh;
+  padding-bottom: 2.48vh;
+}
+
+.service_full .container_2 .column_2 .panel::-webkit-scrollbar {
+  width: 5px;
+}
+
+.service_full .container_2 .column_2 .panel::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.service_full .container_2 .column_2 .panel::-webkit-scrollbar-thumb {
+  background-color: #95e1d3;
+  border-radius: 10px;
+}
+
+.service_full .container_2 .column_2 .panel::-webkit-scrollbar-thumb:hover {
+  background-color: #78b3a8;
+}
+
+.carousel {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-bottom: 10vh;
+}
+
+.carousel .gallery {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel .gallery .gallery-cell {
+  display: block;
+  width: 100%;
+  font-size: 0;
+}
+
+.carousel .gallery .gallery-cell .content_img {
+  display: inline-block;
+  width: 30%;
+  margin-left: 2.5%;
+  vertical-align: top;
+  padding: 5% 2%;
+}
+
+.carousel .gallery .gallery-cell .content_img img {
+  width: 40%;
+  float: right;
+}
+
+.carousel .gallery .gallery-cell .content {
+  display: inline-block;
+  width: 60%;
+  margin-left: 2.5%;
+  padding: 5% 5%;
+  padding-left: 0%;
+}
+
+.carousel .gallery .gallery-cell .content p {
+  color: #999999;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.carousel .gallery .gallery-cell .content hr {
+  display: inline-block;
+  width: 6%;
+  height: 3%;
+  margin: 3.71vh auto;
+  background-color: #f38181;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.1vh solid #f38181;
+  float: left;
+}
+
+.carousel .gallery .gallery-cell .content span {
+  display: inline-block;
+  color: #333333;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+  font-weight: 400;
+  margin: 2.71vh 1vw;
+}
+
+.carousel .gallery .flickity-page-dots {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
