@@ -3363,4 +3363,123 @@ input {
 .carousel .gallery .flickity-page-dots {
   display: none;
 }
+
+@media all and (min-width: 480px) and (max-width: 2560px) {
+  .team {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1.5vh;
+    padding-bottom: 13.9vh;
+  }
+  .team .team_photo {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 12.81vh;
+  }
+  .team .team_photo div {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin-left: 2.08vw;
+    background-color: #95e1d3;
+  }
+  .team .team_photo div img {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+  .team .team_photo div span {
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: -10px;
+  }
+  .team .team_photo div span .img-top {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  .team .team_photo div span div {
+    display: block;
+    height: auto;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    z-index: 2;
+    background-color: #fce38a;
+    font-size: 0;
+    border: none;
+    outline: none;
+  }
+  .team .team_photo div span div button {
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+  }
+  .team .team_photo div span div button:hover {
+    background-color: #f38181;
+  }
+  .team .team_photo div span p {
+    top: 55%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    font-size: 0.93vw;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .team .team_photo div:hover .img_top {
+    top: -10px;
+    left: -10px;
+  }
+  .team .team_photo div:hover span {
+    visibility: visible;
+  }
+  .team .names {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  .team .names div {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin-top: 4.65vh;
+    margin-left: 2.08vw;
+  }
+  .team .names div p:first-child {
+    color: #333333;
+    font-family: Montserrat-Regular;
+    font-size: 0.72vw;
+    font-weight: 400;
+    text-align: center;
+  }
+  .team .names div p:last-child {
+    margin-top: 1.70vh;
+    color: #999999;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 0.78vw;
+    font-weight: 400;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
