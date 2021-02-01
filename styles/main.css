@@ -3830,4 +3830,91 @@ input {
 .carousel_2 .gallery .flickity-page-dots {
   display: none;
 }
+
+.clients {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/clients_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  position: relative;
+}
+
+.clients .section_header {
+  padding-top: 10.38vh;
+  padding-bottom: 6.38vh;
+}
+
+.clients .clients_table {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.clients .clients_table .clients_row {
+  display: inline-block;
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.clients .clients_table .clients_row .client_block {
+  display: block;
+  width: 100%;
+  padding-bottom: 7.84vh;
+  margin-left: 5.20vw;
+}
+
+.clients .clients_table .clients_row .client_block img {
+  display: inline-block;
+  width: 15%;
+  margin-right: 1.56vw;
+}
+
+.clients .clients_table .clients_row .client_block div {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  text-align: left;
+  margin-top: 2.27vh;
+}
+
+.clients .clients_table .clients_row .client_block div h4 {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 0.72vw;
+  font-weight: 400;
+  padding: 0.56vh 0;
+}
+
+.clients .clients_table .clients_row .client_block div h5 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 0.78vw;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.clients .clients_table .clients_row .client_block div hr {
+  width: 6%;
+  height: 3%;
+  margin: 1.70vh 0;
+  background-color: #f38181;
+  float: left;
+  border: 0.1vh solid #f38181;
+}
+
+.clients .clients_table .clients_row .client_block div p {
+  display: block;
+  width: 100%;
+  color: #999999;
+  font-family: Roboto, sans-serif;
+  font-size: 0.78vw;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 7%;
+}
 /*# sourceMappingURL=main.css.map */
