@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <section class="intro">
+    <section id="intro" class="intro">
         <nav>
             <ul>
                 <li>MoGo</li>
@@ -39,25 +39,25 @@
             <button>LEARN MORE</button>
         </header>
         <div>
-            <button>
+            <button onClick="document.getElementById('intro').scrollIntoView();">
                 <hr>
                 <p><span>01</span> INTRO</p>
             </button>
-            <button>
+            <button onClick="document.getElementById('work').scrollIntoView();">
                 <hr>
                 <p><span>02</span> WORK</p>
             </button>
-            <button>
+            <button onClick="document.getElementById('about').scrollIntoView();">
                 <hr>
                 <p><span>03</span> ABOUT</p>
             </button>
-            <button>
+            <button onClick="document.getElementById('contact').scrollIntoView();">
                 <hr>
                 <p><span>04</span> CONTACT</p>
             </button>
         </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <div class="section_header">
             <h3>What we do</h3>
             <h5>Story about us</h5>
@@ -374,7 +374,7 @@
             <img src="./img/Partners.png" alt="Partners">
         </div>
     </section>
-    <section class="work">
+    <section id="work" class="work">
         <div class="work_1">
             <div class="section_header">
                 <h3>What we do</h3>
@@ -496,7 +496,68 @@
             <div class="gallery-cell"></div>
         </div>
     </section>
-
+    <section class="clients">
+        <div class="section_header">
+            <h3>Happy Clients</h3>
+            <h5>WHAT PEOPLE SAY</h5>
+            <hr class="hr_red">
+        </div>
+        <div class="clients_table">
+            <div class="clients_row">
+                <div class="client_block">
+                    <img src="./img/client_1.png" alt="">
+                    <div>
+                        <h4>MATTHEW DIX</h4>
+                        <h5>Graphic Design</h5>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim.
+                        </p>
+                    </div>
+                </div>
+                <div class="client_block">
+                    <img src="./img/client_2.png" alt="">
+                    <div>
+                        <h4>JAELYNN CASTILLO</h4>
+                        <h5>Graphic Design</h5>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="clients_row">
+                <div class="client_block">
+                    <img src="./img/client_3.png" alt="">
+                    <div>
+                        <h4>NICK KARVOUNIS</h4>
+                        <h5>Graphic Design</h5>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim.
+                        </p>
+                    </div>
+                </div>
+                <div class="client_block">
+                    <img src="./img/client_4.png" alt="">
+                    <div>
+                        <h4>MIKE PETRUCCI</h4>
+                        <h5>Graphic Design</h5>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
 
