@@ -1086,14 +1086,14 @@ input {
    * Minus
    */
 .hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
-  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
-  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
   opacity: 0;
-  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
-  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before {
@@ -1193,8 +1193,8 @@ input {
 }
 
 .hamburger--spin .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin .hamburger-inner::after {
@@ -1216,8 +1216,8 @@ input {
 .hamburger--spin.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin.is-active .hamburger-inner::after {
@@ -1241,8 +1241,8 @@ input {
 }
 
 .hamburger--spin-r .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin-r .hamburger-inner::after {
@@ -1264,8 +1264,8 @@ input {
 .hamburger--spin-r.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin-r.is-active .hamburger-inner::after {
@@ -1501,8 +1501,8 @@ input {
 }
 
 .hamburger--squeeze .hamburger-inner::before {
-  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
-  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
 }
 
 .hamburger--squeeze .hamburger-inner::after {
@@ -1524,8 +1524,8 @@ input {
 .hamburger--squeeze.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
-  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
 }
 
 .hamburger--squeeze.is-active .hamburger-inner::after {
@@ -3878,7 +3878,7 @@ input {
   width: 70%;
   vertical-align: top;
   text-align: left;
-  margin-top: 2.27vh;
+  margin-top: 2.07vh;
 }
 
 .clients .clients_table .clients_row .client_block div h4 {
@@ -3915,6 +3915,111 @@ input {
   font-size: 0.78vw;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 7%;
+  margin-top: 8%;
+}
+
+.blog {
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 11.5vh;
+  padding-bottom: 13.9vh;
+}
+
+.blog .blog_posts {
+  display: block;
+  width: 100%;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.blog .blog_posts .post {
+  display: inline-block;
+  width: 30%;
+  margin-left: 2.08vw;
+}
+
+.blog .blog_posts .post .post_photo {
+  display: block;
+  position: relative;
+}
+
+.blog .blog_posts .post .post_photo img {
+  width: 100%;
+}
+
+.blog .blog_posts .post .post_photo div {
+  display: block;
+  position: absolute;
+  bottom: 8%;
+  left: -3%;
+  width: 4.16vw;
+  height: 9.57vh;
+  font-size: 1.38vw;
+  color: #ffffff;
+  background-color: #95e1d3;
+}
+
+.blog .blog_posts .post .post_photo div h4 {
+  font-family: Montserrat;
+  font-size: 2.08vw;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
+.blog .blog_posts .post .post_photo div h5 {
+  font-family: "Roboto - Light Italic";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #ffffff;
+  margin: 15px;
+  margin-top: 0.27vh;
+  text-align: center;
+}
+
+.blog .blog_posts .post h3 {
+  display: block;
+  width: 100%;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 0.97vw;
+  font-weight: 400;
+  text-align: left;
+  padding: 2.73vh 0;
+}
+
+.blog .blog_posts .post p {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 1.04vw;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.blog .blog_posts .post hr {
+  background-color: #e5e5e5;
+  height: 1px;
+  border: none;
+  outline: none;
+  margin: 2.73vh 0;
+}
+
+.blog .blog_posts .post div {
+  display: block;
+  width: 100%;
+}
+
+.blog .blog_posts .post div p {
+  display: inline-block;
+  width: 18%;
+}
+
+.blog .blog_posts .post div p img {
+  width: 25%;
 }
 /*# sourceMappingURL=main.css.map */
