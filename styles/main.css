@@ -3756,4 +3756,78 @@ input {
 .work_photo .photo_row .photo_col_2 .aaa:hover span {
   visibility: visible;
 }
+
+.carousel_2 {
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.carousel_2 .gallery {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel_2 .gallery .gallery-cell {
+  display: block;
+  width: 100%;
+  font-size: 0;
+}
+
+.carousel_2 .gallery .gallery-cell .content_img {
+  display: inline-block;
+  width: 30%;
+  margin-left: 2.5%;
+  vertical-align: top;
+  padding: 5% 2%;
+}
+
+.carousel_2 .gallery .gallery-cell .content_img img {
+  width: 40%;
+  float: right;
+}
+
+.carousel_2 .gallery .gallery-cell .content {
+  display: inline-block;
+  width: 60%;
+  margin-left: 2.5%;
+  padding: 5% 5%;
+  padding-left: 0%;
+}
+
+.carousel_2 .gallery .gallery-cell .content p {
+  color: #999999;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.carousel_2 .gallery .gallery-cell .content hr {
+  display: inline-block;
+  width: 6%;
+  height: 3%;
+  margin: 3.71vh auto;
+  background-color: #f38181;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.1vh solid #f38181;
+  float: left;
+}
+
+.carousel_2 .gallery .gallery-cell .content span {
+  display: inline-block;
+  color: #333333;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+  font-weight: 400;
+  margin: 2.71vh 1vw;
+}
+
+.carousel_2 .gallery .flickity-page-dots {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
