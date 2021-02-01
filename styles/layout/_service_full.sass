@@ -1,52 +1,76 @@
-
 .service_full
     display: block
     width: 80%
     margin: 0 auto
     padding-top: 11.5vh
     padding-bottom: 13.9vh
-.container
-    display: block
-    margin: 0 auto
-    font-size: 0
-    padding: 11.36vh
-    .column_2
-        display: inline-block
-        width: 45%
-        vertical-align: top
-        margin-right: 2%
-        img
-            width: 100%
-        .accordion
-            display: block
-            width: 100%
-            background-color: $white
-            color: #333333
-            font-family: Montserrat
-            font-size: 14px
-            font-weight: 400
-            padding: 2.84vh 0.83vw
-            border: 1px solid #cccccc
-            outline: none
-            cursor: pointer
+    .container_2
+        display: block
+        margin: 0 auto
+        font-size: 0
+        padding: 11.36vh
+        .column_2
+            display: inline-block
+            width: 48%
             vertical-align: top
-            transition: 0.4s
-            p
-                display: inline-block
-                width: 70%
+            margin-right: 2%
+            img
+                width: 100%
+            .accordion
+                display: block
+                width: 100%
+                background-color: $white
+                color: #333333
+                font-family: Montserrat
+                font-size: 0.72vw
+                font-weight: 400
+                padding: 1.84vh 0.83vw
+                border: 0.052vw solid #cccccc
+                outline: none
+                cursor: pointer
                 vertical-align: top
-                text-align: left
-                padding-top: 10px
-            span
-                display: inline-block
-                width: 5%
-                img
-                    width: 80%
-        .panel
-            padding: 0 18px
-            margin: 35px 10px
-            background-color: white
-            max-height: 0
-            font-size: 20px
-            overflow: hidden
-            transition: max-height 0.5s ease-out
+                transition: 0.4s
+                p
+                    display: inline-block
+                    width: 70%
+                    vertical-align: top
+                    text-align: left
+                    padding-top: 0.72vh
+                span
+                    display: inline-block
+                    width: 5%
+                    img
+                        width: 80%
+            .panel
+                padding: 0 0.93vw
+                background-color: white
+                margin-bottom: 1.06vh
+                max-height: 0
+                height: 25.30vh
+                overflow: hidden
+                overflow-y: scroll
+                border: 0.052vw solid #e5e5e5
+                transition: max-height 0.5s ease-out
+                p
+                    color: $p_color
+                    font-family: "Roboto", sans-serif
+                    font-style: italic
+                    font-size: 0.78vw
+                    letter-spacing: normal
+                    font-weight: 400
+                    line-height: 24px
+                    text-align: left
+                    padding-top: 2.1vh
+                    padding-left: 1.13vh
+                    padding-bottom: 2.48vh
+
+            .panel::-webkit-scrollbar
+                width: 5px
+            .panel::-webkit-scrollbar-track
+                box-shadow: inset 0 0 5px grey
+                border-radius: 10px
+            .panel::-webkit-scrollbar-thumb
+                background-color: #95e1d3
+                border-radius: 10px
+            .panel::-webkit-scrollbar-thumb:hover
+                background-color: #78b3a8
