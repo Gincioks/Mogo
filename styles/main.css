@@ -3917,4 +3917,24 @@ input {
   line-height: 24px;
   margin-top: 7%;
 }
+
+.blog {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 11.63vh;
+  padding-bottom: 13.02vh;
+}
+
+.blog .blog_posts {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.blog .blog_posts .post {
+  display: inline-block;
+  width: 30%;
+}
 /*# sourceMappingURL=main.css.map */
