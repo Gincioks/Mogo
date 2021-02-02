@@ -4022,4 +4022,99 @@ input {
 .blog .blog_posts .post div p img {
   width: 25%;
 }
+
+.map img {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+footer .footer_container {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8.88vh 0;
+  font-size: 0;
+}
+
+footer .footer_container .footer_col {
+  display: inline-block;
+  width: 30%;
+  margin-right: 3.33%;
+}
+
+footer .footer_container .footer_col h1 {
+  color: #cccccc;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: left;
+}
+
+footer .footer_container .footer_col .content {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 3.71vh 0;
+}
+
+footer .footer_container .footer_col p {
+  font-family: Montserrat-Regular;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  text-align: left;
+}
+
+footer .footer_container .footer_col p span {
+  font-family: "Montserrat - Bold";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer .footer_container .footer_col hr {
+  background-color: #e5e5e5;
+  height: 1px;
+  border: none;
+  outline: none;
+  margin: 2.28vh 0;
+}
+
+footer .footer_container .footer_col div p {
+  color: #999999;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+footer .footer_container .footer_col div p a {
+  margin-left: 10px;
+}
+
+footer .footer_container .footer_col div {
+  display: table;
+}
+
+footer .footer_container .footer_col div div.t {
+  display: table-cell;
+  width: 100%;
+}
+
+footer .footer_container .footer_col div div.t input {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
