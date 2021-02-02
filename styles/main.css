@@ -1086,14 +1086,14 @@ input {
    * Minus
    */
 .hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
-  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
-  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  -webkit-transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
+  transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
   opacity: 0;
-  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
-  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  -webkit-transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
+  transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear;
 }
 
 .hamburger--minus.is-active .hamburger-inner::before {
@@ -1193,8 +1193,8 @@ input {
 }
 
 .hamburger--spin .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin .hamburger-inner::after {
@@ -1216,8 +1216,8 @@ input {
 .hamburger--spin.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin.is-active .hamburger-inner::after {
@@ -1241,8 +1241,8 @@ input {
 }
 
 .hamburger--spin-r .hamburger-inner::before {
-  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
 }
 
 .hamburger--spin-r .hamburger-inner::after {
@@ -1264,8 +1264,8 @@ input {
 .hamburger--spin-r.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
 }
 
 .hamburger--spin-r.is-active .hamburger-inner::after {
@@ -1501,8 +1501,8 @@ input {
 }
 
 .hamburger--squeeze .hamburger-inner::before {
-  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
-  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
 }
 
 .hamburger--squeeze .hamburger-inner::after {
@@ -1524,8 +1524,8 @@ input {
 .hamburger--squeeze.is-active .hamburger-inner::before {
   top: 0;
   opacity: 0;
-  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
-  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
 }
 
 .hamburger--squeeze.is-active .hamburger-inner::after {
@@ -2735,7 +2735,7 @@ input {
     width: 90%;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
-    font-size: 7vh;
+    font-size: 6vh;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -3335,7 +3335,7 @@ input {
   font-style: italic;
   font-size: 1.25vw;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 3.84vh;
 }
 
 .carousel .gallery .gallery-cell .content hr {
@@ -3484,7 +3484,7 @@ input {
 }
 
 .partners {
-  width: 100%;
+  width: 100vw;
   background-color: #f8f8f8;
   margin-bottom: 10vh;
 }
@@ -3495,6 +3495,10 @@ input {
   margin: 0 auto;
   padding: 2% 0%;
   text-align: center;
+}
+
+.partners div img {
+  max-width: 100%;
 }
 
 .work_1 {
@@ -3802,7 +3806,7 @@ input {
   font-style: italic;
   font-size: 1.25vw;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 3.84vh;
 }
 
 .carousel_2 .gallery .gallery-cell .content hr {
@@ -3895,7 +3899,7 @@ input {
   font-style: italic;
   font-size: 0.78vw;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.56vh;
 }
 
 .clients .clients_table .clients_row .client_block div hr {
@@ -3914,8 +3918,8 @@ input {
   font-family: Roboto, sans-serif;
   font-size: 0.78vw;
   font-weight: 400;
-  line-height: 24px;
-  margin-top: 8%;
+  line-height: 2.56vh;
+  margin-top: 4.56vh;
 }
 
 .blog {
@@ -3966,7 +3970,7 @@ input {
   font-size: 2.08vw;
   font-weight: 700;
   color: #ffffff;
-  margin: 15px;
+  margin: 0.78125vw;
   margin-bottom: 0;
 }
 
@@ -3976,7 +3980,7 @@ input {
   font-weight: 400;
   font-size: 1.04vw;
   color: #ffffff;
-  margin: 15px;
+  margin: 0.78125vw;
   margin-top: 0.27vh;
   text-align: center;
 }
@@ -3997,7 +4001,7 @@ input {
   font-family: Roboto;
   font-size: 1.04vw;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.56vh;
   text-align: left;
 }
 
@@ -4042,6 +4046,7 @@ footer .footer_container {
   width: 80%;
   margin: 0 auto;
   padding: 8.88vh 0;
+  padding-bottom: 6vh;
   font-size: 0;
 }
 
@@ -4049,20 +4054,21 @@ footer .footer_container .footer_col {
   display: inline-block;
   width: 30%;
   margin-right: 3.33%;
+  vertical-align: top;
 }
 
 footer .footer_container .footer_col h1 {
   color: #cccccc;
   font-family: Montserrat;
-  font-size: 46px;
+  font-size: 2.39vw;
   font-weight: 700;
   text-align: left;
 }
 
 footer .footer_container .footer_col .content {
   color: #999999;
-  font-family: Roboto;
-  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 0.78vw;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -4073,13 +4079,14 @@ footer .footer_container .footer_col p {
   font-family: Montserrat-Regular;
   font-weight: 400;
   color: #333333;
-  font-size: 14px;
+  font-size: 0.72vw;
   text-align: left;
 }
 
 footer .footer_container .footer_col p span {
-  font-family: "Montserrat - Bold";
-  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-size: 0.9375vw;
   font-weight: 700;
 }
 
@@ -4095,26 +4102,144 @@ footer .footer_container .footer_col div p {
   color: #999999;
   font-family: Roboto, sans-serif;
   font-style: italic;
-  font-size: 15px;
+  font-size: 0.78125vw;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
 
 footer .footer_container .footer_col div p a {
-  margin-left: 10px;
+  margin-left: 0.52vw;
 }
 
-footer .footer_container .footer_col div {
-  display: table;
-}
-
-footer .footer_container .footer_col div div.t {
-  display: table-cell;
+footer .footer_container .footer_col .subscribe_form {
+  display: block;
   width: 100%;
+  font-size: 0;
+  margin: 8% 0;
 }
 
-footer .footer_container .footer_col div div.t input {
+footer .footer_container .footer_col .subscribe_form .email {
+  display: inline-block;
+  width: 11.97vw;
+  background-color: #ffffff;
+  border: none;
+}
+
+footer .footer_container .footer_col .subscribe_form .email input {
   width: 100%;
+  padding: 1.120vh 0.67vw;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  font-family: "Roboto - Light Italic";
+  font-style: italic;
+  font-size: 0.78125vw;
+  color: #cccccc;
+  font-weight: 400;
+}
+
+footer .footer_container .footer_col .subscribe_form input[type="button"] {
+  display: inline-block;
+  width: 7.81vw;
+  padding: 1.28vh 0.67vh;
+  background-color: #95e1d3;
+  border: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 0.72vw;
+}
+
+footer .footer_container .footer_col h3 {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 0.72vw;
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 20%;
+  padding-bottom: 5%;
+}
+
+footer .footer_container .footer_col .footer_blog {
+  display: block;
+  width: 100%;
+  font-size: 0;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+footer .footer_container .footer_col .footer_blog div {
+  display: inline-block;
+  width: 45%;
+}
+
+footer .footer_container .footer_col .footer_blog div img {
+  width: 70%;
+}
+
+footer .footer_container .footer_col .footer_blog div h4 {
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 0.625vw;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin-left: -15%;
+}
+
+footer .footer_container .footer_col .footer_blog div p {
+  margin-left: -15%;
+}
+
+footer .footer_container .footer_col table {
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+footer .footer_container .footer_col table td {
+  border: 2px solid #ffffff;
+}
+
+footer .footer_container .footer_col table td img {
+  width: 4.58vw;
+}
+
+footer .footer_container .footer_col h6 {
+  margin-left: 20%;
+  margin-top: 6%;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 0.67vw;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+footer .footer_container .footer_col h6 a {
+  text-decoration: none;
+  color: #333333;
+}
+
+footer .footer_hr {
+  display: block;
+  width: 80%;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+}
+
+footer .footer_end {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2.34vh 0;
+  text-align: center;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 0.72vw;
+  font-weight: 400;
+}
+
+footer .footer_end span:first-child {
+  color: #f38181;
 }
 /*# sourceMappingURL=main.css.map */

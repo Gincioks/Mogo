@@ -7,21 +7,23 @@ footer
         width: 80%
         margin: 0 auto
         padding: 8.88vh 0
+        padding-bottom: 6vh
         font-size: 0
         .footer_col
             display: inline-block
             width: 30%
             margin-right: 3.33%
+            vertical-align: top
             h1
                 color: #cccccc
-                font-family: Montserrat
-                font-size: 46px
+                font-family: $font_primary
+                font-size: 2.39vw
                 font-weight: 700
                 text-align: left
             .content
-                color: #999999
-                font-family: Roboto
-                font-size: 15px
+                color: $p_color
+                font-family: $font_third
+                font-size: 0.78vw
                 font-weight: 400
                 line-height: 24px
                 text-align: left
@@ -29,13 +31,14 @@ footer
             p
                 font-family: $font_primary_regular
                 font-weight: 400
-                color: #333333
-                font-size: 14px
+                color: $heading_color
+                font-size: 0.72vw
                 text-align: left
 
                 span
-                    font-family: "Montserrat - Bold"
-                    font-size: 18px
+                    font-family: $font_primary_bold
+                    font-style: bold
+                    font-size: 0.9375vw
                     font-weight: 700
             hr
                 background-color: #e5e5e5
@@ -45,20 +48,107 @@ footer
                 margin: 2.28vh 0
             div
                 p
-                    color: #999999
+                    color: $p_color
                     font-family: $font_third
                     font-style: italic
-                    font-size: 15px
+                    font-size: 0.78125vw
                     font-weight: 400
                     line-height: 24px
                     text-align: left
                     a
-                        margin-left: 10px
-            div
-                display: table
-                div.t
-                    display: table-cell
-                    width: 100%
-
-                div.t input
-                    width: 100%
+                        margin-left: 0.52vw
+            .subscribe_form
+                display: block
+                width: 100%
+                font-size: 0
+                margin: 8% 0
+                .email
+                    display: inline-block
+                    width: 11.97vw
+                    background-color: $white
+                    border: none
+                    input
+                        width: 100%
+                        padding: 1.120vh 0.67vw
+                        border: 1px solid #e7e7e7
+                        outline: none
+                        font-family: "Roboto - Light Italic"
+                        font-style: italic
+                        font-size: 0.78125vw
+                        color: #cccccc
+                        font-weight: 400
+                input[type="button"]
+                    display: inline-block
+                    width: 7.81vw
+                    padding: 1.28vh 0.67vh
+                    background-color: #95e1d3
+                    border: none
+                    color: $white
+                    font-family: $font_primary
+                    font-size: 0.72vw
+            h3
+                color: $heading_color
+                font-family: $font_primary
+                font-size: 0.72vw
+                font-weight: 400
+                text-align: left
+                vertical-align: top
+                margin-left: 20%
+                padding-bottom: 5%
+            .footer_blog
+                display: block
+                width: 100%
+                font-size: 0
+                margin-left: 20%
+                margin-top: 4%
+                div
+                    display: inline-block
+                    width: 45%
+                    img
+                        width: 70%
+                    h4
+                        color: $heading_color
+                        font-family: $font_primary
+                        font-size: 0.625vw
+                        font-weight: 400
+                        line-height: 18px
+                        text-align: left
+                        margin-left: -15%
+                    p
+                        margin-left: -15%
+            table
+                margin-left: 20%
+                margin-top: 4%
+                td
+                    border: 2px solid $white
+                    img
+                        width: 4.58vw
+            h6
+                margin-left: 20%
+                margin-top: 6%
+                font-family: $font_third
+                font-style: italic
+                font-size: 0.67vw
+                font-weight: 400
+                line-height: 24px
+                text-align: left
+                a
+                    text-decoration: none
+                    color: $heading_color
+    .footer_hr
+        display: block
+        width: 80%
+        background-color: #e5e5e5
+        border: 1px solid #e5e5e5
+    .footer_end
+        display: block
+        width: 80%
+        margin: 0 auto
+        padding: 2.34vh 0
+        text-align: center
+        color: $heading_color
+        font-family: $font_primary
+        font-size: 0.72vw
+        font-weight: 400
+        span:first-child
+            color: $slide_btn_hover
